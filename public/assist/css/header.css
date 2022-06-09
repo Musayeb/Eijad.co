@@ -1,0 +1,102 @@
+/***
+===================================================================
+new style
+===================================================================
+
+***/
+.dropdown-menu{
+	width: 400px !important;
+	padding: 0;
+	top: 20px!important;
+	background-color: #f9f9f9;
+}
+
+.dropdown-item{
+	width: 100%;
+	font-size: 16px;
+	padding: 18px 15px;
+	line-height: 24px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #222222;
+	border-bottom: 0.5px solid rgb(224, 224, 221)!important;
+	box-sizing: border-box;
+	text-overflow:clip;
+}
+
+/* .link{
+	text-align: center !important;
+	color:#ff5773 !important;
+	padding: 8px 7px;
+} */
+.media{
+	padding: 8px;
+	border-bottom: 0.5px solid rgba(128, 128, 128, 0.308);
+	margin: 10px;
+}
+.media-body p{
+	font-size: 0.8rem;
+	font-weight: normal;
+	
+}
+
+.dropdown-menu a:hover{
+	background-color: #b8b6b663;
+	color: #000;
+}
+.dropdown-menu a:hover .media-body p{
+	color: black;
+	
+}
+
+.dropdown-menu a:hover .media-body span{
+	color: #000;
+}
+
+.shop-img{
+	max-width: 25%;
+	height: auto;
+}
+
+.shop-item{
+	padding: 8px;
+	border-bottom: 0.5px solid rgba(128, 128, 128, 0.308);
+	
+}
+.dropdown-menu a:hover div.shop-item div.pl-2 p{
+	color: black;
+	
+}
+
+.counter{
+	background-color: white;
+	border-radius: 100%;
+	width: 20px !important;
+	height: 20px !important;
+	margin-left: -18px;
+	margin-bottom: 14px !important;
+	position: absolute;
+	z-index: 1;
+	color: black !important;
+	font-weight: normal;
+	font-size: 0.7rem;
+}
+
+.report-avg p{
+	font-size: 20rem !important;
+	font-weight: 800 !important;
+}
+
+.dropdown-menu-right{
+	min-height: 300px !important;
+}
+
+
+
+
+/* 
+/***
+===================================================================
+end new style
+===================================================================
+***/
